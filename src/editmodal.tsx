@@ -29,7 +29,7 @@ class EditModal extends React.Component<Props, State> {
 
 
 
-    handleSubmit = (event: { preventDefault: () => void; }) => { //the most epic hack in the world, check with hug
+    handleSubmit = (event: { preventDefault: () => void; }) => { //the most epic hack in the world, check with hugh
         this.props.eventHandler("edit", new Card(this.state.frontValue,this.state.backValue));
         event.preventDefault();
     }
